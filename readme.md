@@ -22,18 +22,18 @@
 
 ![COVID-19 Cases](./assets/graphs/overall_cases.png)
 
-[JHU GitHub]: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+[JHU GitHub](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data) 
 
 <p>
-Our dataset was collected from [JHU GitHub][]. It contains up to date information regarding the latest COVID-19 counts. Data includes international locations, as well as updated data from the United States.
+Our dataset was collected from JHU GitHub. It contains up-to-date information regarding the latest number of COVID-19 confirmed cases and COVID-19 Deaths. Although these models were only ran on domestic (United States) data, international data is also available.
 </p>
 
 <p>
-Since the beginnning of the year COVID-19, has spread across the entire world. The first case in the United States was recorded in January 2020. As of July 30, 2020 millions of people have been infected, and over 150,000 people have died from the virus.
+Since the beginnning of the year, COVID-19, has spread across the entire world at an alarming rate. The first case in the United States was recorded in January 2020. As of July 30, 2020 millions of people have been infected, and over 150,000 people in the US, have died from the virus. We wanted to see if we could build a model to see where the numbers are heading.
 </p>
 
 <p>
-Our goal is to build a model to project death rates for cities in America. After and see if certain actions can be made to decrease the rate of the curve.
+Our goal is to build a model to project death rates for cities in America and to see if certain actions can be made to decrease the rate of the curves.
 </p>
 
 <h3 name='models_used'>Models Used</h3>
@@ -55,7 +55,7 @@ The final model selected was SARIMAX model. The RMSE Score for the National Case
 <h6>Confirmed Cases </h6>
 
 <p>
-Highly populated areas were hit extremely hard. We believe that it is a result of the dense population and high transmission rate. New York City and Cook County (Chicago), had large jumps in the number of people that were initially infected during the lockdown phase, however, data shows a smoothing in the recent rate of cases, even after reopening. It should also be noted that both of these cities instituted a lockdown relatively early and longer in the US.
+Highly populated areas were hit extremely hard. We believe that it is a result of the dense population and high transmission rates. New York City and Cook County (Chicago), had large jumps in the number of people that were initially infected during the lockdown phase, however, data shows a smoothing in the recent rate of cases, even after reopening. It should also be noted that both of these cities instituted a lockdown relatively early and longer in the US.
 </p>
 
 ![Cook County/Chicago Confirmed Cases](./assets/graphs/chicago_confimed.png)
