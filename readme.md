@@ -5,7 +5,7 @@
 
 
 <h3> Understanding Our Data </h3>
-<center> ===================================================== <center>
+<center> ===================================================== </center>
 
 <center> ![COVID-19 Cases](./assets/graphs/overall_cases.png) </center>
 
