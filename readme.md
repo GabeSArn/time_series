@@ -1,12 +1,13 @@
 # Covid-19 Time-Series Analysis
 #### Study By
 #### JD Kim - Muriel Kosaka -  Gabe Arnold
-================================================================================================================================
+
+
 
 <h3> Understanding Our Data </h3>
-======================================================================
+<center> ===================================================== <center>
 
-![COVID-19 Cases](./assets/graphs/overall_cases.png)
+<center> ![COVID-19 Cases](./assets/graphs/overall_cases.png) </center>
 
 <p> Our dataset was collected from *[JHU GitHub](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)*. It contains up to date information regarding the latest COVID-19 counts. Data includes international locations, as well as updated data from the United States.
 </p>
@@ -22,8 +23,8 @@ Our goal is to build a model to project death rates for cities in America. After
 
 
 <h3>Models Used</h3>
-======================================================================
-
+<center> ===================================================== <center>
+    
 <ul>
     <li>ARMA</li>    
     <li>ARIMA</li>
@@ -60,7 +61,3 @@ Our goal is to build a model to project death rates for cities in America. After
 <p>Death cases were similar to confirmed cases. Large metropolitans that were hit early experienced very high death rates. As we transition to overall state data, we can see New York, California, and Massachusetts are all leading the nation in COVID-19 deaths. 
     
 ![US Death Count](./assets/graphs/top_10_states.png)
-
-
-
-    
