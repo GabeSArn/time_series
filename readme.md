@@ -4,10 +4,10 @@
 
 
 
-<h3> Understanding Our Data </h3>
-<center> ===================================================== </center>
+<h3>Understanding Our Data</h3>
+===================================================== 
 
-<center> ![COVID-19 Cases](./assets/graphs/overall_cases.png) </center>
+![COVID-19 Cases](./assets/graphs/overall_cases.png)
 
 <p> Our dataset was collected from *[JHU GitHub](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data)*. It contains up to date information regarding the latest COVID-19 counts. Data includes international locations, as well as updated data from the United States.
 </p>
@@ -23,7 +23,7 @@ Our goal is to build a model to project death rates for cities in America. After
 
 
 <h3>Models Used</h3>
-<center> ===================================================== <center>
+=====================================================
     
 <ul>
     <li>ARMA</li>    
@@ -35,25 +35,24 @@ Our goal is to build a model to project death rates for cities in America. After
 
 <p>The final model selected was SARIMAX model. The RMSE Score for the National Cases Confirmed model was 15,325. The RMSE Score for the National Death Model was 487.</p>
 
-
 <h3>Findings</h3>
 
 <h6>Confirmed Cases </h6>
+
 <p>We are seeing that highly populated areas were hit extremely hard. We believe that it is a result of the dense population and high transmission rate. </p>
 
-<p>New York City and Cook County (Chicago), had large jumps in the number of people that were initially infected, during the lockdown phase however data shows a smoothing in the recent rate of cases after reopening. It should also be noted that both of these cities instituted a lockdown relatively early and longer in the US.</p>
+<p>New York City and Cook County (Chicago), had large jumps in the number of people that were initially infected during the lockdown phase, however, data shows a smoothing in the recent rate of cases, even after reopening. It should also be noted that both of these cities instituted a lockdown relatively early and longer in the US.</p>
 
 ![New York City Confirmed Cases](./assets/graphs/nyc_confirmed.png)
 
 
-![Cook County Chicago Confirmed Cases](./assets/graphs/chicago_confimed.png)
+![Cook County/Chicago Confirmed Cases](./assets/graphs/chicago_confimed.png)
     
 <p>Recently, the cities of Los Angeles, Harris County Texas (Dallas), and Maricopa (Phoenix), have seen large increases in the number of people that have recently contracted the disease. Los Angeles, even though they instituted a longer lockdown, has faced a rapid increase in the number of confirmed cases. We noticed that Harris County Texas and Maricopa had shorter lockdown periods and a rapid increase in cases after reopening.</p>
 
-
 <p>Additionally, we noticed in median populated (~12000 People) regions, that had shorter lockdown periods are experiencing high rates of contact.</p>
 
-<p>In areas with small populations (U+003C1000 People) face small amounts of Contamination Cases.</p>
+<p>In areas with small populations (Less than1000 People) face small amounts of Contamination Cases.</p>
 
 <p>In large (>4000000) and median populated regions generally saw a spike after the Fourth of July.</p>
 
