@@ -4,9 +4,17 @@
 
 
 [Understanding Data](#understanding)
+
+
 [Models Used](#models_used)
+
+
 [Final Model](#final_model)
+
+
 [Model Forecasts](#model_forecasts)
+
+
 [Recommendations](#recommendations)
 
 
@@ -14,12 +22,14 @@
 
 ![COVID-19 Cases](./assets/graphs/overall_cases.png)
 
+[JHU GitHub]: https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data
+
 <p>
-Our dataset was collected from [JHU GitHub](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data). It contains up to date information regarding the latest COVID-19 counts. Data includes international locations, as well as updated data from the United States.
+Our dataset was collected from [JHU GitHub][]. It contains up to date information regarding the latest COVID-19 counts. Data includes international locations, as well as updated data from the United States.
 </p>
 
 <p>
-Since the beginnning of the year COVID-19 has spread across America. The first case in the United States was recorded in January 2020. As of July 30, 2020 millions of people have been infected, and over 150,000 people have died from the virus.
+Since the beginnning of the year COVID-19, has spread across the entire world. The first case in the United States was recorded in January 2020. As of July 30, 2020 millions of people have been infected, and over 150,000 people have died from the virus.
 </p>
 
 <p>
@@ -45,17 +55,13 @@ The final model selected was SARIMAX model. The RMSE Score for the National Case
 <h6>Confirmed Cases </h6>
 
 <p>
-We are seeing that highly populated areas were hit extremely hard. We believe that it is a result of the dense population and high transmission rate.
-</p>
-
-<p>
-New York City and Cook County (Chicago), had large jumps in the number of people that were initially infected during the lockdown phase, however, data shows a smoothing in the recent rate of cases, even after reopening. It should also be noted that both of these cities instituted a lockdown relatively early and longer in the US.
+Highly populated areas were hit extremely hard. We believe that it is a result of the dense population and high transmission rate. New York City and Cook County (Chicago), had large jumps in the number of people that were initially infected during the lockdown phase, however, data shows a smoothing in the recent rate of cases, even after reopening. It should also be noted that both of these cities instituted a lockdown relatively early and longer in the US.
 </p>
 
 ![Cook County/Chicago Confirmed Cases](./assets/graphs/chicago_confimed.png)
     
 <p>
-Recently, the cities of Los Angeles, Harris County Texas (Dallas), and Maricopa (Phoenix), have seen large increases in the number of people that have recently contracted the disease. Los Angeles, even though they instituted a longer lockdown, has faced a rapid increase in the number of confirmed cases. We noticed that Harris County Texas and Maricopa had shorter lockdown periods and a rapid increase in cases after reopening.
+Recently, the counties of Los Angeles County, California, Harris County, Texas (Dallas), and Maricopa, Arizona (Phoenix), have seen large increases in the number of people that have recently contracted the disease. Los Angeles, even though they instituted a longer lockdown compared to other cities in America, has faced a rapid increase in the number of confirmed cases. Harris County, Texas and Maricopa, Arizona had shorter lockdown periods and are now experiencing a rapid increase in cases after reopening.
 </p>
 
 ![Phoenix Metro](./assets/graphs/phoenix.png)
@@ -63,7 +69,7 @@ Recently, the cities of Los Angeles, Harris County Texas (Dallas), and Maricopa 
 ![Harris County, Texas](./assets/graphs/harris_county.png)
 
 <p>
-Additionally, we noticed in median populated (~12,000 People) regions, that had shorter lockdown periods are experiencing high rates of contact.
+Additionally, we noticed in median populated (~12,000 People) regions, that had shorter lockdown periods are experiencing high rates of infection.
 </p>
 
 <p>Areas with small populations (Less than 1,000 People), face small amounts of Contamination Cases.</p>
