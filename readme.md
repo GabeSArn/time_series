@@ -33,7 +33,7 @@ Since the beginnning of the year, COVID-19, has spread across the entire world a
 </p>
 
 <p>
-Our goal is to build a model to project death rates for cities in America and to see if certain actions can be made to decrease the rate of the curves.
+Our goal is to build a model to project death and confirmation rates on a state and national level in America. Also see if certain actions can be made to decrease the rate of the curve.
 </p>
 
 <h3 name='models_used'>Models Used</h3>
